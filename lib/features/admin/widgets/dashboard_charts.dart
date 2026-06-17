@@ -121,7 +121,7 @@ class WeeklyAttendanceChart extends StatelessWidget {
             dotData: const FlDotData(show: false),
             belowBarData: BarAreaData(
               show: true,
-              color: const Color(0xFF0061FF).withValues(alpha: 0.1),
+              color: const Color(0xFF0061FF).withOpacity(0.1),
             ),
           ),
         ],

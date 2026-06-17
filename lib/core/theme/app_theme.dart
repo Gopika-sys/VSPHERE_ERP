@@ -76,7 +76,7 @@ class AppTheme {
         foregroundColor: Colors.white,
 
         minimumSize: const Size(
-          double.infinity,
+          64,
           50,
         ),
 

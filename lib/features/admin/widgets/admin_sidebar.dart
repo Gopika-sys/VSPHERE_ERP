@@ -73,7 +73,7 @@ class AdminSidebar extends StatelessWidget {
                   child: ListTile(
                     dense: true,
                     selected: isSelected,
-                    selectedTileColor: const Color(0xFF0061FF).withValues(alpha: 0.1),
+                    selectedTileColor: const Color(0xFF0061FF).withOpacity(0.1),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
                     ),
